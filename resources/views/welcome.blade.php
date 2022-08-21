@@ -24,8 +24,13 @@
                 <p class="mb-30px">Our incredible sponsor</p>
 
                 <div class="flex">
-                    <img class="item" src="{{ asset('img/unguin.png') }}" alt="">
-                    <img src="{{ asset('img/unguin.png') }}" alt="">
+                    <a class="text-decoration-none" href="https://ungu.in" rel="noopener noreferrer" target="_blank">
+                        <img class="item" src="{{ asset('img/unguin.png') }}" alt="">
+                    </a>
+
+                    <a class="text-decoration-none" href="https://ungu.in" rel="noopener noreferrer" target="_blank">
+                        <img src="{{ asset('img/unguin.png') }}" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -78,7 +83,8 @@
                 <img class="chain" src="{{ asset('img/chain.png') }}" alt="">
                 <p>Vote ketua OSIS pilihanmu</p>
                 <img class="chain" src="{{ asset('img/chain.png') }}" alt="">
-                <p>Ikuti <a target="_blank" href="https://www.instagram.com/mpk.smerusaka/">Instagram</a> kami untuk streaming live counting
+                <p>Ikuti <a target="_blank" href="https://www.instagram.com/mpk.smerusaka/">Instagram</a> kami untuk
+                    streaming live counting
                 </p>
 
                 <div class="particle">

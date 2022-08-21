@@ -76,7 +76,7 @@
         </main>
 
         <footer class="mt-5">
-            <p>Developed by MPK Satriya Adhijaya & <a href="https://instagram.com/osorateam">OSORA TEAM</a></p>
+            <p>Developed by MPK Satriya Adhijaya & <a href="https://instagram.com/osorateam" rel="noopener noreferrer" target="_blank">OSORA TEAM</a></p>
         </footer>
     </div>
 </body>
