@@ -24,12 +24,12 @@
                 <p class="mb-30px">Our incredible sponsor</p>
 
                 <div class="flex">
-                    <a class="text-decoration-none" href="https://ungu.in" rel="noopener noreferrer" target="_blank">
-                        <img class="item" src="{{ asset('img/unguin.png') }}" alt="">
+                    <a class="text-decoration-none me" href="https://www.instagram.com/blessingcreative.id" rel="noopener noreferrer" target="_blank">
+                        <img class="item" src="{{ asset('img/blessing.png') }}" alt="">
                     </a>
 
                     <a class="text-decoration-none" href="https://ungu.in" rel="noopener noreferrer" target="_blank">
-                        <img src="{{ asset('img/unguin.png') }}" alt="">
+                        <img class="item" src="{{ asset('img/unguin.png') }}" alt="">
                     </a>
                 </div>
             </div>

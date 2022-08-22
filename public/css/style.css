@@ -304,8 +304,13 @@ input.form-control:focus {
     margin-top: 450px;
 }
 
-.sponsor .item {
+.sponsor .me {
     margin-right: 20px;
+}
+
+.sponsor .item {
+    height: 26px;
+    width: auto;
 }
 
 /* choose */
@@ -749,6 +754,11 @@ footer a:hover {
 
     .sponsor {
         margin-top: 100px;
+    }
+
+    .sponsor .item {
+        height: 22px;
+        width: auto;
     }
 
     .blur-right-blue {
