@@ -21,15 +21,28 @@
             </div>
 
             <div class="text-center sponsor">
-                <p class="mb-30px">Our incredible sponsor</p>
+                <p class="mb-40px">Our incredible sponsor</p>
+
+                <div class="flex mb-30px">
+                    <a class="text-decoration-none me" href="https://goo.gl/maps/hkxnQXdHuXvruqaY7"
+                        rel="noopener noreferrer" target="_blank">
+                        <img class="sponsorship" src="{{ asset('img/saudara.jpg') }}" alt="">
+                    </a>
+
+                    <a class="text-decoration-none" href="https://www.instagram.com/fathiyya_boutique/"
+                        rel="noopener noreferrer" target="_blank">
+                        <img class="sponsorship" src="{{ asset('img/fathiyya.jpg') }}" alt="">
+                    </a>
+                </div>
 
                 <div class="flex">
-                    <a class="text-decoration-none me" href="https://www.instagram.com/blessingcreative.id" rel="noopener noreferrer" target="_blank">
-                        <img class="item" src="{{ asset('img/blessing.png') }}" alt="">
+                    <a class="text-decoration-none me" href="https://www.instagram.com/blessingcreative.id"
+                        rel="noopener noreferrer" target="_blank">
+                        <img class="media-partner" src="{{ asset('img/blessing.png') }}" alt="">
                     </a>
 
                     <a class="text-decoration-none" href="https://ungu.in" rel="noopener noreferrer" target="_blank">
-                        <img class="item" src="{{ asset('img/unguin.png') }}" alt="">
+                        <img class="media-partner" src="{{ asset('img/unguin.png') }}" alt="">
                     </a>
                 </div>
             </div>
@@ -48,7 +61,7 @@
                 <h1 class="offset">NEXT LEADER</h1>
             </div>
 
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-md-3 col-sm-6 col-6">
                     <img class="w-100 box-yellow" src="{{ asset('img/box-yellow.png') }}" alt="">
                 </div>
@@ -61,6 +74,10 @@
                 <div class="col-md-3 col-sm-6 col-6">
                     <img class="w-100 box-blue" src="{{ asset('img/box-blue.png') }}" alt="">
                 </div>
+            </div>
+
+            <div class="text-center">
+                <a class="btn btn-blue" href="{{ route('votes.index') }}">Let's Vote</a>
             </div>
         </div>
     </section>

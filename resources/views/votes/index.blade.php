@@ -1,11 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="vote" class="section-pad">
+    <section id="vote" class="section-pad relative">
+
         <div class="container">
             @if (auth()->user()->isVoted())
                 <div class="alert alert-info mb-5" role="alert">
-                    Terima kasih telah berpartisipasi di Event Airlangga 2022, Kunjungi Instagram <a class="text-danger" href="https://www.instagram.com/mpk.smerusaka/">@mpk.smerusaka</a> untuk melihat streaming live counting!
+                    Terima kasih telah berpartisipasi di Event Airlangga 2022, Kunjungi Instagram <a class="text-danger"
+                        href="https://www.instagram.com/mpk.smerusaka/">@mpk.smerusaka</a> untuk melihat streaming live
+                    counting!
                 </div>
             @endif
             <h1 class="text-center title">THE CHOICE IS YOURS</h1>
@@ -17,6 +20,7 @@
                         aria-labelledby="modalLabel-{{ $index }}" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content box-airlangga">
+                                <img class="absolute bottom-0 right-0 mascot-2" src="{{ asset('img/mascot-2.png') }}" alt="">
                                 <div class="modal-body">
                                     <div class="d-flex justify-content-between align-items-center mb-40px">
                                         <p class="number-paslon">#{{ $index + 1 }}</p>
@@ -59,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 list-candidate-{{ $index }}">
                         <div class="card">
                             <img src="{{ $candidate->picture() }}" class="card-img-top" alt="paslon">
                             <div class="card-body">
@@ -75,7 +79,7 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <button type="button" class="no-btn details" data-bs-toggle="modal"
                                         data-bs-target="#modal-{{ $index }}">
-                                        View details
+                                        Lihat Detail
                                     </button>
                                     @if (!auth()->user()->isVoted())
                                         <button type="button" class="btn btn-blue" data-bs-toggle="modal"
