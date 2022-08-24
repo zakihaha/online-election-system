@@ -28,12 +28,12 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="vision mb-40px">
-                                        <h3 class="mb-20px text-center wh-pre-warp">Visi</h3>
-                                        <p>{{ $candidate->vision }}</p>
+                                        <h3 class="mb-20px text-center">Visi</h3>
+                                        <p class="wh-pre-warp">{{ $candidate->vision }}</p>
                                     </div>
                                     <div class="mission">
-                                        <h3 class="mb-20px text-center wh-pre-warp">Misi</h3>
-                                        <p>{{ $candidate->mission }}</p>
+                                        <h3 class="mb-20px text-center">Misi</h3>
+                                        <p class="wh-pre-warp">{{ $candidate->mission }}</p>
                                     </div>
 
                                 </div>
