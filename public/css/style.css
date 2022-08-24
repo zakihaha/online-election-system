@@ -96,6 +96,10 @@ input.form-control:focus {
     z-index: -1;
 }
 
+.wh-pre-warp {
+    white-space: pre-wrap;
+}
+
 .mb-10px {
     margin-bottom: 10px !important;
 }
