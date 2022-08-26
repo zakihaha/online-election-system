@@ -8,15 +8,13 @@
             <div class="row">
                 <div class="col-md-4 text-start box-red-phoenix order-1-custom">
                     <h3 class="mb-10px">Red Phoenix</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dignissim vitae rutrum est at posuere
-                        iaculis.</p>
                 </div>
                 <div class="col-md-4 order-0-custom">
                     <img class="mascot" src="{{ asset('img/mascot.png') }}" alt="">
                 </div>
                 <div class="col-md-4 text-end box-mpk order-2-custom">
                     <p class="mb-10px">Presented by</p>
-                    <h2>MPK Satria Adhijaya</h2>
+                    <h2>MPK Satriya Adhijaya</h2>
                 </div>
             </div>
 
