@@ -50,7 +50,7 @@
                                     <p class="confirm-text">Apakah kamu yakin untuk memilih paslon nomor
                                         #{{ $index + 1 }}?</p>
                                 </div>
-                                <div class="modal-footer">
+                                {{-- <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
                                     @if (!auth()->user()->isVoted())
                                         <form action="{{ route('votes.store', $candidate->id) }}" method="post">
@@ -58,7 +58,7 @@
                                             <button type="submit" class="btn btn-blue">Yakin</button>
                                         </form>
                                     @endif
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                                     <p class="number-paslon">#{{ $candidate->number }}</p>
                                 </div>
 
-                                <div class="d-flex justify-content-between align-items-center">
+                                {{-- <div class="d-flex justify-content-between align-items-center">
                                     <button type="button" class="no-btn details" data-bs-toggle="modal"
                                         data-bs-target="#modal-{{ $index }}">
                                         Lihat Detail
@@ -87,7 +87,7 @@
                                             Vote
                                         </button>
                                     @endif
-                                </div>
+                                </div> --}}
 
                             </div>
                         </div>
