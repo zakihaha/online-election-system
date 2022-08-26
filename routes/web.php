@@ -59,9 +59,9 @@ Route::middleware('auth')->group(function () {
     });
 
     Route::middleware('studentRole')->group(function () {
-        // Route::prefix('votes')->group(function () {
-        //     Route::get('', [VoteController::class, 'index'])->name('votes.index');
-        //     Route::post('{candidate}', [VoteController::class, 'store'])->name('votes.store');
-        // });
+        Route::prefix('votes')->group(function () {
+            Route::get('', [VoteController::class, 'index'])->name('votes.index');
+            Route::post('{candidate}', [VoteController::class, 'store'])->name('votes.store');
+        });
     });
 });
