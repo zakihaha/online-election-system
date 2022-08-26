@@ -15,10 +15,10 @@ class VoteController extends Controller
 
     public function store(Candidate $candidate)
     {
-        // if (auth()->user()->voted == false) {
-        //     $candidate->vote();
-        //     auth()->user()->update(['voted' => true]);
-        // }
+        if (auth()->user()->voted == false) {
+            $candidate->vote();
+            auth()->user()->update(['voted' => true]);
+        }
 
         return redirect()->route('votes.index');
     }
